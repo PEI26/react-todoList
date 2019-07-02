@@ -1,0 +1,38 @@
+body {
+  background-color: azure;
+}
+
+.todo-list {
+  background-color: bisque;
+  margin:auto;
+  width: 50%;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  border: 1px;
+  padding: 30px;
+}
+
+.todo-item {
+  
+  display: flex;
+  min-height: 100vh;
+  padding: 30px;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 100;
+  font-size: 10px;
+  color: white;
+} 
+
+
+input[type=checkbox]{
+  margin-right: 10px;
+  font-size: 50%;
+}
+
+input[type=checkbox]:focus{
+  outline: 0;
+}
